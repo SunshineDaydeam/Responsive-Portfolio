@@ -1,5 +1,5 @@
 /* Main Body Background (ALL PAGES)*/
-@media only screen and (min-width: 769px)  {
+@media only screen and (min-width: 769px) and (max-width:980px)  {
 
 
     html {
@@ -171,7 +171,9 @@
     .profPicture {
             margin:30px;
         }
-    
+    .profPicture img {
+        margin-bottom:20px;
+    }
     
     .aboutText {
         font-size:18px;
@@ -233,6 +235,10 @@
             max-width:100%;
             width: auto;
         }
+
+    .push {
+        min-height:400px;
+    }
     
     /* Portfolio Page */
     
@@ -242,20 +248,64 @@
         text-align:center;
         font-family: 'Georgia', Times, Times New Roman, serif;
         margin-left:10px;
-        padding-bottom:20px;
+        
+        height:100%;
+        
     }
     
     .portGraph {
         margin-top:-10px;
         margin-left:20px;
         margin-right:30px;
-        display:inline-block;
-        max-width:40%;
+        max-width:100%;
+        
     
     }
+
+    .portGraph1 {
     
-    .portGraph img {
+        background-image: url("../images/DogAndMe1.jpg");
+        background-size:cover;
+        padding-top:300px;
+        padding-bottom:50px;
+        margin-left:20px;
+        margin-top:30px;
         max-width:100%;
+    }
+    .portGraph2 {
+        background-image: url("../images/DogAndMe2.jpg");
+        background-size:cover;
+        padding-top:200px;
+        padding-bottom:50px;
+        margin-right:30px;
+        margin-top:30px;
+        
+    }
+    .portGraph3 {
+        background-image: url("../images/DogAndMe3.jpg");
+        background-size:cover;
+        padding-top:200px;
+        padding-bottom:50px;
+        margin-left:20px;
+        margin-top:30px;
+    }
+    .portGraph4 {
+        background-image: url("../images/RemyPhoenix.jpg");
+        background-size:cover;
+        padding-top:200px;
+        padding-bottom:50px;
+        margin-right:30px;
+        margin-top:30px;
+        
+    }
+    .portGraph5 {
+        background-image: url("../images/Bellingham.jpg");
+        background-size:cover;
+        padding-top:200px;
+        padding-bottom:50px;
+        margin-left:20px;
+        margin-top:30px;
+        margin-bottom:50px;
     }
     
     .portfolio h4 {
@@ -265,13 +315,13 @@
         opacity:.6;
         margin:0px;
         position: relative;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        top:170px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        top:15%;
         width:100%;
         text-align:center;
         z-index:2;
-        height:30px;
+        
     }
     .portfolio a {
         color:white;
@@ -282,19 +332,21 @@
     }
     
     /* Sticky Footer and Copyright Bar (ALL PAGES)*/
-    
+
+    .clearFix {
+        overflow:auto;
+    }
     footer {
         font-size: 12px;
         color: #cccccc;
         background-color: #666666;
         text-align:center;
         border-top: 8px solid #4aaaa5;
+        margin-top:150px;
         padding-top:40px;
         padding-bottom:8px;
-        margin-top:1000px;
         position: relative;
         bottom:0px;
-        left:0px;
         width:100%;
     }
     

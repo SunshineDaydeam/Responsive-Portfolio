@@ -170,6 +170,10 @@ a:active  {
         margin:30px;
     }
 
+.profPicture img {
+    margin-bottom:20px;
+}
+
 
 .aboutText {
     font-size:18px;
@@ -179,8 +183,12 @@ a:active  {
     margin-right:30px;
     margin-bottom:30px;
     line-height:150%;
+    padding-top:100px;
 }
 
+#pushUp {
+    margin-top:20px;
+}
 /* Contact Page Adds */
 
 .mainSection input {
@@ -232,6 +240,10 @@ a:active  {
         width: auto;
     }
 
+    .push {
+        min-height:200px;
+    }
+
 /* Portfolio Page */
 
 .portfolio {
@@ -249,8 +261,44 @@ a:active  {
 
 }
 
-.portGraph img {
+/* Portfolio Image Links */
+.portGraph1 {
+    
+    background-image: url("../images/DogAndMe1.jpg");
+    background-size:cover;
     max-width:100%;
+    padding-top:200px;
+    padding-bottom:20px;
+    
+}
+.portGraph2 {
+    background-image: url("../images/DogAndMe2.jpg");
+    background-size:cover;
+    max-width:100%;
+    padding-top:200px;
+    padding-bottom:20px;
+}
+.portGraph3 {
+    background-image: url("../images/DogAndMe3.jpg");
+    background-size:cover;
+    max-width:100%;
+    padding-top:200px;
+    padding-bottom:20px;
+}
+.portGraph4 {
+    background-image: url("../images/RemyPhoenix.jpg");
+    background-size:cover;
+    max-width:100%;
+    padding-top:200px;
+    padding-bottom:20px;
+}
+.portGraph5 {
+    background-image: url("../images/Bellingham.jpg");
+    background-size:cover;
+    max-width:100%;
+    padding-top:200px;
+    padding-bottom:20px;
+    margin-bottom:25px;
 }
 
 .portfolio h4 {
@@ -260,13 +308,12 @@ a:active  {
     opacity:.6;
     margin:0px;
     position: relative;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    top:305px;
-    width:100%px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    bottom:1000%;
+    width:100%;
     text-align:center;
     z-index:2;
-    height:30px;
 }
 .portfolio a {
     color:white;
